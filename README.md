@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- The main advantage of using ansible is that it can be deployed on multiple servers through automating with a single configuration file versus manually input each command and waiting for its results and completion.
+- The main advantage of using ansible is that it can be deployed on multiple servers through automating with a single configuration file and automatically updates all machines as needed through the ansible playbook file.
 
 The playbook implements the following tasks:
 - It will push out the play to the designated VM you added on your host and start installing Docker and Python3.

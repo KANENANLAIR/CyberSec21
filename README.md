@@ -22,11 +22,11 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available and network traffic is distributed evenly amongst the servers, in addition to restricting direct access to the network.
-- It helps secure the network acting as the first contact to the network by acting as filter for incoming traffic and helps distribute network traffic to its servers. Advantage of a jumpbox is it's the only mechanism that communicates to the public network(internet) while the rest of your network communicates internally, this helps secure your network and prevents intrusion by limiting access.
+- It helps secure the network acting as the first point of contact to the network and filter the incoming traffic as well as distribute network traffic to its servers so it doesn't overload. Advantages of a jumpbox is it's the only mechanism that communicates to the public network(internet) while the rest of your network communicates internally, this helps secure your network and prevents intrusion by limiting access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system performance.
 - _TODO*: Filebeat watches for system file errors
-- _TODO*:Metriceat records the system status of the machine, Uptime, CPU Usage, etc.
+- _TODO*: Metriceat records the system status of the machine, Uptime, CPU Usage, etc.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.

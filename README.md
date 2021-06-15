@@ -65,7 +65,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 - It will push out the play to the designated VM you added on your host and start installing Docker and Python3.
 - Once those are install the configuration also allocates more memory usage.
-- The configuration will then download the ELK image container and launch it. As well as designate the port and turn on it's services.
+- The configuration will then download the ELK image through the Docker container and launch it. As well as designate the port and turn on it's services.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -73,16 +73,17 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-10.0.0.5
-10.0.0.6 
-10.0.0.7
+- 10.0.0.5
+- 10.0.0.6 
+- 10.0.0.7
 
 We have installed the following Beats on these machines:
-filebeats
-metricbeats
+- filebeats
+- metricbeatsc
 
 These Beats allow us to collect the following information from each machine:
-Filebeat collects and logs system datas in cases there are any errors or disruption, the log would collect it. Metribeat provides data on system performance and usage such as CPU, memory ,and system uptime.
+Filebeat collects and logs system datas in cases there are any errors or disruption, the log would collect it.
+Metribeat provides data on system performance and usage such as CPU, memory ,and system uptime.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

@@ -25,8 +25,8 @@ Load balancing ensures that the application will be highly available and network
 - It helps secure the network acting as the first point of contact to the network and filter the incoming traffic as well as distribute network traffic to its servers so it doesn't overload. Advantages of a jumpbox is it's the only mechanism that communicates to the public network(internet) while the rest of your network communicates internally, this helps secure your network and prevents intrusion by limiting access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system performance.
-- _TODO*: Filebeat watches for system file errors
-- _TODO*: Metricbeat records the system status of the machine, Uptime, CPU Usage, etc.
+- _Filebeat: watches for system file errors
+- _Metricbeat: records the system status of the machine, Uptime, CPU Usage, etc.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -79,7 +79,7 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 - filebeats
-- metricbeatsc
+- metricbeats
 
 These Beats allow us to collect the following information from each machine:
 Filebeat collects and logs system datas in cases there are any errors or disruption, the log would collect it.
@@ -91,7 +91,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the Install-Elk file to /etc/ansible.
 - Update the hosts file to include... Your elk server
-- Run the playbook, and navigate to ELK server and run "sudo docker PS" to check that the installation worked as expected.
+- Run the playbook, and navigate to ELK server via SSH and run "sudo docker PS" to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_

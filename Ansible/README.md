@@ -25,8 +25,8 @@ Load balancing ensures that the application will be highly available and network
 - It helps secure the network acting as the first contact to the network by acting as filter for incoming traffic and helps distribute network traffic to its servers. Advantage of a jumpbox is it's the only mechanism that communicates to the public network(internet) while the rest of your network communicates internally, this helps secure your network and prevents intrusion by limiting access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system performance.
-- _TODO*: Filebeat watches for system file errors
-- _TODO*:Metriceat records the system status of the machine, Uptime, CPU Usage, etc.
+- Filebeat watches for system file errors
+- Metriceat records the system status of the machine, Uptime, CPU Usage, etc.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.

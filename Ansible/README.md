@@ -92,10 +92,9 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include file to include... Your elk server
 - Run the playbook, and navigate to ELK server to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
 install-elk.yml is the playbook and should be copied into /etc/ansible/ directory
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+
 You would update the host file and add a group such as webserver or elk. On your play playbook you would input which group(machines) you would want to run the playbook on and then execute it.
-- _Which URL do you navigate to in order to check that the ELK server is running?
- http://[your.VM.IP]:5601/app/kibana
+
+To navigate to check if your elk server is running goto http://[your.VM.IP]:5601/app/kibana
+

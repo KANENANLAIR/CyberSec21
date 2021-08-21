@@ -12,7 +12,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 
 ```bash
 $ nmap -sV 192.168.1.110
-! (images/nmap-output.png)
+![TODO: Update the path with the name of your diagram](images/nmap-output.png)
 ```
 
 This scan identifies the services below as potential points of entry:

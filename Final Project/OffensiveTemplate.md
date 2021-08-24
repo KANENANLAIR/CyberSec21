@@ -31,7 +31,8 @@ The following vulnerabilities were identified on each target:
 
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
-(images/nmap-vulners.png)
+
+![TODO: Update the path with the name of your diagram](images/nmap-vulners.png)
 
 
 ### Exploitation

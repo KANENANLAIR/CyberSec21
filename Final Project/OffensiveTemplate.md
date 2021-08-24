@@ -17,23 +17,22 @@ $ nmap -sV 192.168.1.110
 
 This scan identifies the services below as potential points of entry:
 - Target 1
-  - List of
-  - Exposed Services
-
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
-
-The following vulnerabilities were identified on each target:
-- Target 1
   - Open Port 22- SSH
   - Open Port 80 - HTTP
   - Open Port 111 - rpc
   - Open Port 445 - SMB
   - Open Port 139 - SMB
 
+_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
+
+The following vulnerabilities were identified on each target:
+- Target 1
+
+
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ```bash
-$ nmap -sV 192.168.1.110
+(images/nmap-vulners)
 ```
 
 ### Exploitation
@@ -41,10 +40,10 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: _TODO:  <!-- flag1{b9bbcb33e11b80be759c4e844862482d} -->
     - **Exploit Used**
       - _TODO: Used
-      - _TODO: grep "flag1" /var/www/html/*
+      - _TODO: grep "flag1" /var/www/html/*>
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
       - _TODO: 

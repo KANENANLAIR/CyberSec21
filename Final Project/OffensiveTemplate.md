@@ -40,10 +40,12 @@ _TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO:  <!-- flag1{b9bbcb33e11b80be759c4e844862482d} -->
+  - `flag1:b9bbcb33e11b80be759c4e844862482d
     - **Exploit Used**
-      - _TODO: Used
-      - _TODO: grep "flag1" /var/www/html/*>
+      - _Brute forced and attained michael's password which was Michael.
+      - ssh michael@192.168.1.110
+      - entered password: michael
+      - - _TODO: grep "flag1" /var/www/html/*>
   - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
     - **Exploit Used**
       - _TODO: 

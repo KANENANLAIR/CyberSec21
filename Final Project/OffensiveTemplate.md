@@ -32,7 +32,7 @@ The following vulnerabilities were identified on each target:
 _TODO: Include vulnerability scan results to prove the identified vulnerabilities._
 
 ```bash
-(images/nmap-vulners)
+(images/nmap-vulners-scan.txt)
 ```
 
 ### Exploitation

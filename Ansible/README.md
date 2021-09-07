@@ -94,7 +94,7 @@ SSH into the control node and follow the steps below:
 
 install-elk.yml is the playbook and should be copied into /etc/ansible/ directory
 
-You would update the host file and add a group such as webserver or elk. On your play playbook you would input which group(machines) you would want to run the playbook on and then execute it.
+You would update the host file and add a group such as webserver or elk. On your playbook you would input which group(machines) you would want to run the playbook on and then execute it.
 
 To navigate to check if your elk server is running goto http://[your.VM.IP]:5601/app/kibana
 

@@ -26,7 +26,7 @@ Load balancing ensures that the application will be highly available and network
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system performance.
 - Filebeat watches for system file errors
-- Metriceat records the system status of the machine, Uptime, CPU Usage, etc.
+- Metricbeat records the system status of the machine, Uptime, CPU Usage, etc.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
